@@ -70,11 +70,11 @@ public class CalculatorTest {
     @Test
     public void Addition()
     {
-        CalculatorSession.findElementByName("One").click();
+        CalculatorSession.findElementByName("Two").click();
         CalculatorSession.findElementByName("Plus").click();
         CalculatorSession.findElementByName("Two").click();
         CalculatorSession.findElementByName("Equals").click();
-        Assert.assertEquals("3", _GetCalculatorResultText());
+        Assert.assertEquals("4", _GetCalculatorResultText());
     }
 
     @Test

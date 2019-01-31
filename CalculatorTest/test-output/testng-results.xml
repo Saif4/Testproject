@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27398" started-at="2019-01-30T14:39:43Z" finished-at="2019-01-30T14:40:10Z">
+  <suite name="Default suite" duration-ms="14017" started-at="2019-01-31T09:43:42Z" finished-at="2019-01-31T09:43:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27398" started-at="2019-01-30T14:39:43Z" finished-at="2019-01-30T14:40:10Z">
+    <test name="Default test" duration-ms="14017" started-at="2019-01-31T09:43:42Z" finished-at="2019-01-31T09:43:56Z">
       <class name="CalculatorTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:CalculatorTest@612679d6]" name="setup" is-config="true" duration-ms="2532" started-at="2019-01-30T14:39:43Z" finished-at="2019-01-30T14:39:45Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:CalculatorTest@612679d6]" name="setup" is-config="true" duration-ms="1545" started-at="2019-01-31T09:43:42Z" finished-at="2019-01-31T09:43:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Addition()[pri:0, instance:CalculatorTest@612679d6]" name="Addition" duration-ms="3270" started-at="2019-01-30T14:39:45Z" finished-at="2019-01-30T14:39:48Z">
+        <test-method status="PASS" signature="Addition()[pri:0, instance:CalculatorTest@612679d6]" name="Addition" duration-ms="1778" started-at="2019-01-31T09:43:44Z" finished-at="2019-01-31T09:43:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addition -->
-        <test-method status="PASS" signature="Combination()[pri:0, instance:CalculatorTest@612679d6]" name="Combination" duration-ms="7826" started-at="2019-01-30T14:39:48Z" finished-at="2019-01-30T14:39:56Z">
+        <test-method status="PASS" signature="Combination()[pri:0, instance:CalculatorTest@612679d6]" name="Combination" duration-ms="4202" started-at="2019-01-31T09:43:46Z" finished-at="2019-01-31T09:43:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Combination -->
-        <test-method status="PASS" signature="Division()[pri:0, instance:CalculatorTest@612679d6]" name="Division" duration-ms="6194" started-at="2019-01-30T14:39:56Z" finished-at="2019-01-30T14:40:02Z">
+        <test-method status="PASS" signature="Division()[pri:0, instance:CalculatorTest@612679d6]" name="Division" duration-ms="3238" started-at="2019-01-31T09:43:50Z" finished-at="2019-01-31T09:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Division -->
-        <test-method status="PASS" signature="Multiplication()[pri:0, instance:CalculatorTest@612679d6]" name="Multiplication" duration-ms="3593" started-at="2019-01-30T14:40:02Z" finished-at="2019-01-30T14:40:06Z">
+        <test-method status="PASS" signature="Multiplication()[pri:0, instance:CalculatorTest@612679d6]" name="Multiplication" duration-ms="1619" started-at="2019-01-31T09:43:53Z" finished-at="2019-01-31T09:43:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Multiplication -->
-        <test-method status="PASS" signature="Subtraction()[pri:0, instance:CalculatorTest@612679d6]" name="Subtraction" duration-ms="3682" started-at="2019-01-30T14:40:06Z" finished-at="2019-01-30T14:40:10Z">
+        <test-method status="PASS" signature="Subtraction()[pri:0, instance:CalculatorTest@612679d6]" name="Subtraction" duration-ms="1559" started-at="2019-01-31T09:43:55Z" finished-at="2019-01-31T09:43:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Subtraction -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:CalculatorTest@612679d6]" name="TearDown" is-config="true" duration-ms="250" started-at="2019-01-30T14:40:10Z" finished-at="2019-01-30T14:40:10Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:CalculatorTest@612679d6]" name="TearDown" is-config="true" duration-ms="55" started-at="2019-01-31T09:43:56Z" finished-at="2019-01-31T09:43:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

@@ -57,6 +57,11 @@ public class CalculatorTest {
         Assert.assertEquals("0", _GetCalculatorResultText());
     }
 */
+    protected String _GetCalculatorResultText()
+    {
+        // trim extra text and whitespace off of the display value
+        return CalculatorResult.getText().replace("Display is", "").trim();
+    }
     @AfterClass
     public static void TearDown()
     {
@@ -124,10 +129,6 @@ public class CalculatorTest {
         Assert.assertEquals("8", _GetCalculatorResultText());
     }
 
-    protected String _GetCalculatorResultText()
-    {
-        // trim extra text and whitespace off of the display value
-        return CalculatorResult.getText().replace("Display is", "").trim();
-    }
+   
 
 }

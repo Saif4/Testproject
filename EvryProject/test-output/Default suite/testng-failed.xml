@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CalculatorTest">
+      <class name="WindowsTest.CalculatorTest">
         <methods>
-          <include name="TearDown"/>
-          <include name="Combination"/>
-          <include name="Subtraction"/>
-          <include name="Addition"/>
-          <include name="Multiplication"/>
-          <include name="Division"/>
-          <include name="setup"/>
+          <include name="addition"/>
         </methods>
-      </class> <!-- CalculatorTest -->
+      </class> <!-- WindowsTest.CalculatorTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

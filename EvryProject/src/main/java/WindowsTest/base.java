@@ -29,6 +29,7 @@ public class base {
 			DesiredCapabilities cap = new DesiredCapabilities();
 			
 			cap.setCapability("app", "C:\\Windows\\System32\\notepad.exe");
+			cap.setCapability("app", "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App");
 			//cap.setCapability("appArguments", "MyTestFile.txt");
 			//cap.setCapability("appWorkingDir", "C:\\MyTestFolder\\");
 			driver = new WindowsDriver(new URL("http://127.0.0.1:4723"), cap);
@@ -38,11 +39,12 @@ public class base {
 			//String newWindowHandle = newWindow.getAttribute("NativeWindowHandle");
 			//driver.switchTo().window(newWindowHandle);
 			//WebElement ChildWindow = driver.findElementByClassName("Windows.UI.Core.CoreWindow");
-			driver.findElementByName("Text Editor").sendKeys("hejjj");
-			String te = driver.findElementByAccessibilityId("CalculatorResults").getText();
-		    driver.getWindowHandle();
-		    driver.switchTo(te);
-
+			//driver.findElementByName("Text Editor").sendKeys("hejjj");
+			//String te = driver.findElementByAccessibilityId("CalculatorResults").getText();
+		    //driver.getWindowHandle();
+		    //driver.switchTo(te);
+			//WebElement nextWindow = driver.findElementByName("Calculator");
+			//nextWindow.click();
 			
 		
 		}

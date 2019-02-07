@@ -19,7 +19,7 @@ public class CalculatorTest extends base{
 	
 	{
 		initialDriver();
-		
+		/*
 		driver.findElementByName("Seven").click();
         driver.findElementByName("Plus").click();
         driver.findElementByName("One").click();
@@ -27,7 +27,7 @@ public class CalculatorTest extends base{
         Assert.assertTrue(driver.findElementByAccessibilityId("CalculatorResults").isDisplayed());
         String nr = driver.findElementByAccessibilityId("CalculatorResults").getText();
         Assert.assertEquals("Display is 8" , nr);
-       
+       */
      
         
         
